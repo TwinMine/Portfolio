@@ -1,5 +1,6 @@
 import "./projects.css";
 import acoustiFlow from "/src/assets/walkman.jpg";
+import storageList from "/src/assets/Parts.png";
 import cashStuffing from "/src/assets/cash-stuffing.png";
 import weatherApp from "/src/assets/weather-app.png";
 import pokePalCodex from "/src/assets/pikachu-1.png";
@@ -22,7 +23,7 @@ const Projects = () => {
     <div className="information-container">
       <h1 className={topic}>Meine Projekte</h1>
       <div className="project-container">
-        <div className={showProjectDiv}>
+        {/* <div className={showProjectDiv}>
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -37,7 +38,31 @@ const Projects = () => {
           >
             <img src={acoustiFlow} alt="" className={showPic} />
           </a>
+        </div> */}
+
+
+<div className={showProjectDiv}>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://storage-list-frontend.vercel.app/"
+          >
+            <h3 className="project-topic">Storage List</h3>
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://storage-list-frontend.vercel.app/"
+          >
+            <img src={storageList} alt="" className={showPic} />
+          </a>
         </div>
+
+
+
+
+
+
         <div className={showProjectDiv}>
           <a
             target="_blank"
